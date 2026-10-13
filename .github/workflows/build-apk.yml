@@ -31,12 +31,13 @@ jobs:
           java-version: '17'
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools'
 
       - name: Install Android SDK Packages
         run: |
           sdkmanager --install \
-            "platform-tools" \
             "platforms;android-35" \
             "build-tools;35.0.0"
           yes | sdkmanager --licenses
@@ -57,7 +58,7 @@ jobs:
             @capacitor/cli@6 \
             @capacitor/android@6
 
-      - name: Create Capacitor JSON Configuration
+      - name: Create Capacitor Configuration
         run: |
           rm -f capacitor.config.ts capacitor.config.js capacitor.config.mjs
           cat > capacitor.config.json <<'EOF'
