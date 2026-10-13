@@ -41,6 +41,7 @@ jobs:
           sdkmanager --install \
             "platforms;android-35" \
             "build-tools;35.0.0"
+          yes | sdkmanager --licenses
 
       - name: Install Node Dependencies
         run: npm install --legacy-peer-deps
@@ -48,24 +49,25 @@ jobs:
       - name: Build Web Production Assets
         run: npm run build
 
-      - name: Install Capacitor
+      - name: Install Compatible Capacitor Packages
         run: |
           npm install --legacy-peer-deps \
-            @capacitor/core \
-            @capacitor/cli \
-            @capacitor/android
+            @capacitor/core@6 \
+            @capacitor/cli@6 \
+            @capacitor/android@6
 
-      - name: Initialize Android Platform
+      - name: Initialize Capacitor Configuration
         run: |
-          if [ ! -f capacitor.config.json ] && \
-             [ ! -f capacitor.config.ts ] && \
-             [ ! -f capacitor.config.js ] && \
-             [ ! -f capacitor.config.mjs ]; then
+          if [ ! -f capacitor.config.ts ] && \
+             [ ! -f capacitor.config.json ] && \
+             [ ! -f capacitor.config.js ]; then
             npx cap init "Al-Hindwan Tours" \
               "com.alhindwan.travels" \
               --web-dir dist
           fi
 
+      - name: Initialize Android Platform
+        run: |
           if [ ! -d android ]; then
             npx cap add android
           fi
