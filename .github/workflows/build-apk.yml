@@ -1,10 +1,11 @@
+
 name: Build Android APK
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
   workflow_dispatch:
 
 jobs:
@@ -19,40 +20,60 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
-      - name: Install Node Dependencies
-        run: |
-          npm install --legacy-peer-deps
-
-      - name: Build Web Production Assets
-        run: |
-          npm run build
-
-      - name: Setup Java Development Kit (JDK 17)
+      - name: Setup Java Development Kit
         uses: actions/setup-java@v4
         with:
           java-version: '17'
-          distribution: 'temurin'
+          distribution: temurin
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Initialize Android Platform & Sync Capacitor
+      - name: Install Android SDK Packages
         run: |
-          npm install --legacy-peer-deps @capacitor/core @capacitor/cli @capacitor/android
-          npx cap init "Al-Hindwan Tours" "com.alhindwan.travels" --web-dir dist || true
+          sdkmanager --install \
+            "platform-tools" \
+            "platforms;android-35" \
+            "build-tools;35.0.0"
+          yes | sdkmanager --licenses
+
+      - name: Install Node Dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Build Web Production Assets
+        run: npm run build
+
+      - name: Install Capacitor
+        run: |
+          npm install --legacy-peer-deps \
+            @capacitor/core \
+            @capacitor/cli \
+            @capacitor/android
+
+      - name: Initialize Android Platform
+        run: |
+          if [ ! -f "capacitor.config.json" ] && \
+             [ ! -f "capacitor.config.ts" ] && \
+             [ ! -f "capacitor.config.js" ] && \
+             [ ! -f "capacitor.config.mjs" ]; then
+            npx cap init "Al-Hindwan Tours" \
+              "com.alhindwan.travels" \
+              --web-dir dist
+          fi
+
           if [ ! -d "android" ]; then
             npx cap add android
           fi
-          npx cap sync android
+
+      - name: Sync Capacitor Android
+        run: npx cap sync android
 
       - name: Grant Execute Permission for Gradle Wrapper
-        run: |
-          if [ -f "android/gradlew" ]; then
-            chmod +x android/gradlew
-          fi
+        run: chmod +x android/gradlew
 
-      - name: Build Debug Android APK via Gradle
+      - name: Build Debug Android APK
         run: |
           cd android
           ./gradlew assembleDebug --no-daemon
@@ -62,3 +83,5 @@ jobs:
         with:
           name: al-hindwan-tours-debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 7
