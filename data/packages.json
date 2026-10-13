@@ -1,0 +1,199 @@
+[
+  {
+    "id": "pkg-umr-deluxe-01",
+    "title": "15-Day Royal Clock Tower Umrah",
+    "category": "umrah",
+    "tier": "VIP Luxury",
+    "durationDays": 15,
+    "departureDates": ["15 Nov 2026", "01 Dec 2026", "15 Dec 2026", "10 Jan 2027"],
+    "departureCity": "Mumbai / Delhi / Dubai",
+    "airline": "Saudia Direct Boeing 787 Dreamliner",
+    "priceQuad": 125000,
+    "priceTriple": 138000,
+    "priceDouble": 155000,
+    "priceSingle": 210000,
+    "makkahHotel": "Makkah Clock Royal Tower (Fairmont)",
+    "makkahDistanceMeters": 50,
+    "makkahNights": 8,
+    "madinahHotel": "The Oberoi Madinah",
+    "madinahDistanceMeters": 80,
+    "madinahNights": 7,
+    "rating": 4.95,
+    "reviewsCount": 342,
+    "spotsLeft": 6,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1000&q=80",
+    "mealPlan": "Full Board Royal Buffet (3x Daily)",
+    "mealDescription": "Extensive multi-cuisine buffet prepared by executive Indian, Arab, and Continental chefs. Includes daily hot breakfast, lunch, and dinner buffet with fresh fruits, desserts, and tea/coffee.",
+    "trainTransfer": true,
+    "zamzamIncluded": true,
+    "baggageAllowance": "46kg (2 x 23kg check-in) + 7kg cabin",
+    "hotelPhotos": [
+      "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "foodPhotos": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+    ],
+    "inclusions": [
+      { "icon": "Plane", "title": "Direct Return Flights", "description": "Baggage 46kg (2x23kg) + 7kg hand carry" },
+      { "icon": "Hotel", "title": "5-Star Haram Frontage", "description": "Zero-meter walking distance with Haram View options" },
+      { "icon": "ShieldCheck", "title": "Full Saudi Umrah Visa", "description": "With mandatory medical insurance coverage" },
+      { "icon": "Utensils", "title": "Full Board Royal Buffet", "description": "Open Indian, Continental, and Arabic buffet 3 times daily" },
+      { "icon": "Bus", "title": "High-Speed Haramain Train", "description": "First Class VIP high-speed rail Makkah-Madinah transfer" },
+      { "icon": "Droplets", "title": "5L Blessed Zamzam Water", "description": "Packed at King Abdullah Project for every pilgrim" },
+      { "icon": "MapPin", "title": "Comprehensive Ziyarat", "description": "Private AC luxury coach with experienced scholarly guide" }
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrival in Jeddah & Transfer to Makkah", "description": "Meet & greet at VIP lounge King Abdulaziz Airport. Ihram wearing, transfer to Fairmont Clock Tower and perform 1st Umrah with guide.", "city": "Makkah" },
+      { "day": 2, "title": "Rest & Prayers in Grand Mosque", "description": "Fajr in Haram courtyard. Orientation lecture on Umrah etiquette & Tawaf virtues.", "city": "Makkah" },
+      { "day": 3, "title": "Makkah Sacred Ziyarat", "description": "Visit Cave of Hira (Jabal Al Nour), Cave of Thawr, Mina, Muzdalifah, and Jabal Al-Rahma in Arafat.", "city": "Makkah" },
+      { "day": 8, "title": "Farewell Tawaf (Wada) & Haramain Rail", "description": "Perform Tawaf Al-Wada. Board VIP Haramain High Speed Train to Madinah Al-Munawwarah (2 hrs).", "city": "Makkah" },
+      { "day": 15, "title": "Departure from Madinah Prince Mohammad Airport", "description": "Direct flight departure with cherished spiritual memories and accepted Umrah, InshaAllah.", "city": "Madinah" }
+    ]
+  },
+  {
+    "id": "pkg-umr-ramadan-02",
+    "title": "Ramadan Last 10 Days & Eid in Haram",
+    "category": "umrah",
+    "tier": "VIP Luxury",
+    "durationDays": 14,
+    "departureDates": ["20th Ramadan 2026", "22nd Ramadan 2026"],
+    "departureCity": "Mumbai / Hyderabad / Bangalore",
+    "airline": "Emirates / Saudia Airlines",
+    "priceQuad": 185000,
+    "priceTriple": 205000,
+    "priceDouble": 235000,
+    "priceSingle": 320000,
+    "makkahHotel": "Swissotel Makkah (Abraj Al Bait)",
+    "makkahDistanceMeters": 70,
+    "makkahNights": 8,
+    "madinahHotel": "Pullman Zamzam Madinah",
+    "madinahDistanceMeters": 120,
+    "madinahNights": 6,
+    "rating": 4.98,
+    "reviewsCount": 189,
+    "spotsLeft": 3,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=80",
+    "mealPlan": "Ramadan Suhoor & Iftar Buffet",
+    "mealDescription": "Lavish Suhoor & Iftar buffet with dates, fresh juices, grilled meats, and hot tea/coffee.",
+    "trainTransfer": true,
+    "zamzamIncluded": true,
+    "baggageAllowance": "46kg + 7kg cabin",
+    "hotelPhotos": [
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "foodPhotos": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+    ],
+    "inclusions": [
+      { "icon": "Moon", "title": "Laylatul Qadr in Haram", "description": "Witness the 27th night Khatam-al-Quran with 2+ million believers" },
+      { "icon": "Sparkles", "title": "Eid-ul-Fitr in Holy Lands", "description": "Eid Salah inside Masjid Al-Haram courtyard" },
+      { "icon": "Utensils", "title": "Suhoor & Iftar Buffet", "description": "Elaborate daily Iftar & wholesome Suhoor buffet" },
+      { "icon": "Hotel", "title": "Zero Walking Distance", "description": "Direct indoor elevators to Haram piazza" }
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrive into spiritual peak of Ramadan", "description": "Transfer to Makkah Swissotel, direct Iftar in Haram.", "city": "Makkah" },
+      { "day": 14, "title": "Eid Celebration & Departure", "description": "Eid Salah in Haram, departure to home.", "city": "Madinah" }
+    ]
+  },
+  {
+    "id": "pkg-hajj-shifting-03",
+    "title": "Non-Shifting Premium Hajj 2026",
+    "category": "hajj",
+    "tier": "Deluxe 5-Star",
+    "durationDays": 24,
+    "departureDates": ["1st Dhu al-Hijjah 1447H (May 2026)"],
+    "departureCity": "All Major Indian & International Gateways",
+    "airline": "Saudia Hajj Flights",
+    "priceQuad": 590000,
+    "priceTriple": 640000,
+    "priceDouble": 720000,
+    "priceSingle": 950000,
+    "makkahHotel": "Dar Al Eiman Royal Hotel (Haram Front)",
+    "makkahDistanceMeters": 30,
+    "makkahNights": 12,
+    "madinahHotel": "Anwar Al Madinah Mövenpick",
+    "madinahDistanceMeters": 50,
+    "madinahNights": 8,
+    "rating": 4.97,
+    "reviewsCount": 520,
+    "spotsLeft": 9,
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1000&q=80",
+    "mealPlan": "Full Board Indian & Continental Buffets",
+    "mealDescription": "Catered hot food in Mina and Arafat tents, plus 5-star hotel buffets in Makkah and Madinah.",
+    "trainTransfer": true,
+    "zamzamIncluded": true,
+    "baggageAllowance": "46kg + 7kg cabin",
+    "hotelPhotos": [
+      "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=800&q=80"
+    ],
+    "foodPhotos": [
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+    ],
+    "inclusions": [
+      { "icon": "Tent", "title": "VIP AC Mina European Tents", "description": "Sofa beds, private gypsum partitions & dedicated washrooms" },
+      { "icon": "Train", "title": "Mashair Holy Sites Metro Pass", "description": "Avoid road traffic between Mina, Arafat, and Muzdalifah" },
+      { "icon": "Users", "title": "Senior Ulama Guidance", "description": "Daily lectures, step-by-step Manasik e Hajj mentoring" }
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Arrival & Umrah Al-Tamattu", "description": "Enter into Ihram at Miqat, reach Makkah hotel, perform Umrah.", "city": "Makkah" },
+      { "day": 24, "title": "Final Departure", "description": "Farewell Tawaf and departure.", "city": "Makkah" }
+    ]
+  },
+  {
+    "id": "pkg-umr-eco-04",
+    "title": "Classic Budget Economy 15-Days Umrah",
+    "category": "umrah",
+    "tier": "Economy Saver",
+    "durationDays": 15,
+    "departureDates": ["10 Oct 2026", "25 Oct 2026", "12 Nov 2026", "08 Dec 2026"],
+    "departureCity": "Mumbai / Lucknow / Kozhikode",
+    "airline": "Air India Express / Flynas",
+    "priceQuad": 82000,
+    "priceTriple": 92000,
+    "priceDouble": 105000,
+    "priceSingle": 145000,
+    "makkahHotel": "Al Kiswah Towers (Free Shuttle 24x7)",
+    "makkahDistanceMeters": 850,
+    "makkahNights": 8,
+    "madinahHotel": "Rawdat Al Aqeeq Hotel",
+    "madinahDistanceMeters": 350,
+    "madinahNights": 7,
+    "rating": 4.82,
+    "reviewsCount": 412,
+    "spotsLeft": 14,
+    "featured": false,
+    "image": "https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?auto=format&fit=crop&w=1000&q=80",
+    "mealPlan": "Indian Desi Chef Homestyle Buffet",
+    "mealDescription": "Homestyle Indian cuisine with fresh rotis, dal, rice, chicken curry, and chai 3 times daily.",
+    "trainTransfer": false,
+    "zamzamIncluded": true,
+    "baggageAllowance": "30kg + 7kg cabin",
+    "hotelPhotos": [
+      "https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "foodPhotos": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+    ],
+    "inclusions": [
+      { "icon": "Plane", "title": "Return Flights Included", "description": "Comfortable transit flights with 30kg baggage" },
+      { "icon": "Bus", "title": "24/7 Continuous Shuttle", "description": "AC buses every 3 minutes direct to Haram bus terminal" },
+      { "icon": "Utensils", "title": "Indian Homestyle Meals", "description": "Fresh desi food prepared by Indian chefs daily" },
+      { "icon": "FileText", "title": "Complete Visa & Insurance", "description": "Tourist or Umrah e-Visa processing" }
+    ],
+    "itinerary": [
+      { "day": 1, "title": "Departure & Arrival Makkah", "description": "Reach Jeddah, AC coach to Al Kiswah Towers, group Umrah at night.", "city": "Makkah" },
+      { "day": 15, "title": "Return Flight", "description": "Return to India.", "city": "Madinah" }
+    ]
+  }
+]

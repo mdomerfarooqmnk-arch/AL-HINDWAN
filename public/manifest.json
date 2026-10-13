@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "Al Hindwan Tours & Travels",
+  "short_name": "Al Hindwan",
+  "description": "Comprehensive Hajj & Umrah travel management, booking system, document verification, live pilgrim geofencing, spiritual tools, and Android architecture hub.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#062e22",
+  "theme_color": "#062e22",
+  "categories": ["travel", "lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

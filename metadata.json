@@ -1,0 +1,10 @@
+{
+  "name": "Al-Hindwan Tours & Travels",
+  "description": "Al-Hindwan Tours & Travels - Comprehensive Hajj & Umrah travel management, booking system, document verification, live pilgrim geofencing, spiritual tools, and Android architecture hub.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
